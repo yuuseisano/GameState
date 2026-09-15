@@ -123,7 +123,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="InGameState.cpp" />
+    <ClCompile Include="MainMenuState.cpp" />
+    <ClCompile Include="ResultState.cpp" />
+    <ClCompile Include="StartUpState.cpp" />
+    <ClCompile Include="TitleState.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="InGameState.h" />
+    <ClInclude Include="MainMenuState.h" />
+    <ClInclude Include="ResultState.h" />
+    <ClInclude Include="StartUpState.h" />
+    <ClInclude Include="TitleState.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
